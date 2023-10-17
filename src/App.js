@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloFunctional, { HelloClass, Explicit, Implicit } from './components/01Hello/hello';
+import x, { welcome } from './components/02Welcome/welcome';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HelloFunctional/>
+      <HelloClass/>
+      <Explicit/>
+      <Implicit/>
+      <h2>{x}</h2>
+      {welcome}
     </div>
   );
 }
