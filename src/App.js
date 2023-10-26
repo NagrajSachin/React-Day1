@@ -11,6 +11,8 @@ import Layout from './components/09Layout/layout';
 import ParentInstanceMethod from './components/10InstanceMethodForDC/instanceMethod';
 import { ComponentOneUsingContext } from './components/11ContextForDataCommunication/usingContext';
 import { ComponentOneUsingProps } from './components/11ContextForDataCommunication/usingProps';
+import LifeCycleHooks from './components/12LifeCycleHooks/lifeCycleHooks';
+import ComponentWillUnmount from './components/12LifeCycleHooks/componentWillUnmount';
 
 function App() {
   return (
@@ -44,6 +46,12 @@ function App() {
       {/* <ComponentOneUsingContext /> */}
 
       {/* <ComponentOneUsingProps /> */}
+
+      {/* <LifeCycleHooks favGame='BasketBall'/> */}
+
+      {/* <LifeCycleHooks /> */}
+
+      {/* <ComponentWillUnmount />     */}
     </div>
   );
 }
