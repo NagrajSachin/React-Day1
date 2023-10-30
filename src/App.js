@@ -13,6 +13,7 @@ import { ComponentOneUsingContext } from './components/11ContextForDataCommunica
 import { ComponentOneUsingProps } from './components/11ContextForDataCommunication/usingProps';
 import LifeCycleHooks from './components/12LifeCycleHooks/lifeCycleHooks';
 import ComponentWillUnmount from './components/12LifeCycleHooks/componentWillUnmount';
+import UseEffect from './components/13UseEffect/useEffect';
 
 function App() {
   return (
@@ -52,6 +53,8 @@ function App() {
       {/* <LifeCycleHooks /> */}
 
       {/* <ComponentWillUnmount />     */}
+      
+      <UseEffect />
     </div>
   );
 }
