@@ -14,6 +14,9 @@ import { ComponentOneUsingProps } from './components/11ContextForDataCommunicati
 import LifeCycleHooks from './components/12LifeCycleHooks/lifeCycleHooks';
 import ComponentWillUnmount from './components/12LifeCycleHooks/componentWillUnmount';
 import UseEffect from './components/13UseEffect/useEffect';
+import { RestFulCallUsers, RestFulCallTodos } from './components/14Consuming_Rest/httpCall';
+import { DisplayEmployees } from './components/15EventEmitter/displayEmployees';
+import MyForm from './components/16FormValidation/formValidation';
 
 function App() {
   return (
@@ -54,7 +57,17 @@ function App() {
 
       {/* <ComponentWillUnmount />     */}
       
-      <UseEffect />
+      {/* <UseEffect /> */}
+
+      {/* <RestFulCallUsers />
+
+      <hr />
+
+      <RestFulCallTodos /> */}
+
+      {/* <DisplayEmployees /> */}
+
+      {/* <MyForm /> */}
     </div>
   );
 }
